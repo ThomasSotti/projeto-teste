@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap');
+
+/*---- Body ----*/
+body {
+    background-color: #1a222c;
+    background-image: linear-gradient(#303f52, #1a222c);
+    margin: 0px;
+}
+
+/*--- Header ---*/
+.cabeca {
+    background-color: #30445a00;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.navegacao {
+    background-color: #30445a;
+    box-shadow: 2px 2px 10px #1a222c;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+    margin: 0px 10px 10px 10px;
+    padding: 1px 10px;
+}
+
+.introducao {
+    background-color: #30445a;
+    box-shadow: 2px 2px 10px #1a222c;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 1px 10px;
+}
+
+.titulos {
+    background-clip: border-box;
+    box-shadow: 2px 2px 10px #1a222c;
+    border-radius: 5px;
+    font-family: 'PT Serif', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding: 1px 10px;
+    background: -webkit-linear-gradient(#ffc8df, #be2734);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitulos {
+    background-clip: border-box;
+    box-shadow: 2px 2px 10px #1a222c;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'PT Serif', Times, serif;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+    padding: 7px 10px;
+    background: -webkit-linear-gradient(#ffd167, #946d13);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paragrafo {
+    font-family: 'Noto Sans', Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+    text-shadow: 2px 2px 5px #1a222c;
+    text-indent: 15px;
+    margin: 10px;
+    padding: 5px 1px;
+    color: #b7cedd;
+}
+
+/*---- Main ----*/
+.principal {
+    background-color: #30445a00;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.zelda {
+    background-color: #30445a;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1a222c;
+    margin: 10px;
+    padding: 1px 10px;
+}
+
+.elden {
+    background-color: #30445a;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1a222c;
+    margin: 10px;
+    padding: 1px 10px;
+}
+
+.video {
+    margin: 10px 0px;
+}
+
+.video > iframe {
+    text-align: center;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+}
+
+/*--- Footer ---*/
+.rodape {
+    background-color: #30445a00;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contatos {
+    text-align: center;
+    background-color: #30445a;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1a222c;
+    margin: 10px;
+    padding: 1px 10px;
+}
+
+p#contato01 {
+    font-size: large;
+    font-weight: normal;
+    text-align: center;
+    margin: 0px;
+    padding: 7px 0px 0px 0px;
+}
+
+.lista01 {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.option {
+    line-height: 3em;
+    position: relative;
+    display: inline-block;
+}
+
+.links {
+    background-clip: border-box;
+    background: -webkit-linear-gradient(#ffd167, #946d13);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1a222c;
+    text-decoration: none;
+    font-family: 'PT Serif', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    margin: 0px 15px;
+    padding: 4px 40px;
+}
+
+.links:hover {
+    background-clip: border-box;
+    background: -webkit-linear-gradient(#ffc642, #ffcd43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 2px 2px 10px #355475;
+    text-shadow: #ffc642;
+    transition-duration: 1s;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.creditos001 {
+    background-color: #30445a;
+    box-shadow: 2px 2px 10px #1a222c;
+    border-radius: 5px 5px 0px 0px;
+    margin: 10px 10px 0px 10px;
+    padding: 1px 10px;
+}
+
+.creditos002 {
+    background-clip: border-box;
+    box-shadow: 2px 2px 10px #1a222c;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'PT Serif', Times, serif;
+    font-weight: bold;
+    padding: 4px 10px;
+    background: -webkit-linear-gradient(#ffd167, #946d13);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
